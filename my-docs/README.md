@@ -1,41 +1,32 @@
-# Website
+# Universidad Tecnológica de la Sierra Hidalguense
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+## Aplicaciones Web Progresivas
 
-### Installation
+### Proyecto presentado por:
+**Omar de Jesús Rosales Hernández**
+**Yahir Rodriguez Bustos**
 
-```
+### Grado:
+**10° cuatrimestre**
+
+### Grupo:
+**G1**
+
+### Carrera:
+**Ingeniería en Desarrollo y Gestión de Software**
+
+### Cuatrimestre:
+**Septiembre - Diciembre 2024**
+
+---
+
+## Website
+
+Este sitio web está construido utilizando [Docusaurus](https://docusaurus.io/), un generador de sitios web estáticos moderno.
+
+### Instalación
+
+Para instalar las dependencias necesarias, ejecuta el siguiente comando:
+
+```bash
 $ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
