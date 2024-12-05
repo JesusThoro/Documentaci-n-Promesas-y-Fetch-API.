@@ -1,0 +1,5 @@
+const delay = new Promise((resolve) => {
+  setTimeout(() => resolve("Resuelto después de 2 segundos"), 2000);
+});
+
+delay.then(console.log);

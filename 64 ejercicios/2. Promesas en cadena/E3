@@ -1,0 +1,5 @@
+const p1 = Promise.resolve("Promesa 1 resuelta");
+const p2 = Promise.resolve("Promesa 2 resuelta");
+const p3 = Promise.resolve("Promesa 3 resuelta");
+
+Promise.all([p1, p2, p3]).then((results) => console.log(results));

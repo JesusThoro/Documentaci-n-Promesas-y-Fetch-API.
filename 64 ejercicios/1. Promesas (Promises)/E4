@@ -1,0 +1,6 @@
+const downloadFile = new Promise((resolve) => {
+  console.log("Descargando archivo...");
+  setTimeout(() => resolve("Archivo descargado"), 3000);
+});
+
+downloadFile.then(console.log);

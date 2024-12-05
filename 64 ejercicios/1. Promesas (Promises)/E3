@@ -1,0 +1,4 @@
+const toUpperCase = (text) =>
+  new Promise((resolve) => resolve(text.toUpperCase()));
+
+toUpperCase("hola").then(console.log);

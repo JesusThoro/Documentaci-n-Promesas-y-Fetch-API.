@@ -1,0 +1,6 @@
+const validateText = (text) =>
+  new Promise((resolve, reject) =>
+    text ? resolve("Texto válido") : reject("Texto vacío")
+  );
+
+validateText("").then(console.log).catch(console.error);

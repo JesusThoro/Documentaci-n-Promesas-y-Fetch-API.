@@ -1,0 +1,6 @@
+const checkEven = (num) =>
+  new Promise((resolve, reject) => {
+    num % 2 === 0 ? resolve("Es par") : reject("Es impar");
+  });
+
+checkEven(5).then(console.log).catch(console.error);

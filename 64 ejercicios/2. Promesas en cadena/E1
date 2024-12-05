@@ -1,0 +1,9 @@
+const register = (name) => Promise.resolve(`Usuario ${name} registrado`);
+const welcome = (name) => Promise.resolve(`Bienvenido, ${name}`);
+
+register("Juan")
+  .then((res) => {
+    console.log(res);
+    return welcome("Juan");
+  })
+  .then(console.log);

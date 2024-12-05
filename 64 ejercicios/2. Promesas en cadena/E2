@@ -1,0 +1,6 @@
+const multiplyByTwo = (num) => Promise.resolve(num * 2);
+const addFive = (num) => Promise.resolve(num + 5);
+
+multiplyByTwo(3)
+  .then(addFive)
+  .then(console.log);

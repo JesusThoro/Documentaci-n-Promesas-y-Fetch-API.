@@ -1,0 +1,8 @@
+const login = (user, pass) =>
+  new Promise((resolve, reject) => {
+    user === "admin" && pass === "1234"
+      ? resolve("Acceso concedido")
+      : reject("Acceso denegado");
+  });
+
+login("admin", "1234").then(console.log).catch(console.error);
